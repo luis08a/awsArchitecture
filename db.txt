@@ -1,0 +1,4 @@
+CREATE TABLE entities (
+   id varchar(50) primary key,
+   body varchar(255)
+);
