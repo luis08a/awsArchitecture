@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class Web {
-    // @Autowired
-    // CustomRepository cr;
+    @Autowired
+    CustomRepository cr;
 
     @GetMapping()
     public ResponseEntity<?> getHome() {

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 /**
  * Repository
  */
-// @Repository
-public interface CustomRepository extends CrudRepository<String, CustomEntity> {
+@Repository
+public interface CustomRepository extends CrudRepository<CustomEntity, String> {
 
 }
